@@ -7,15 +7,15 @@
 
 body{
 	min-height: 100vh;
-	background-image: linear-gradient(120deg, #3498db, #8e44ad);
+	background: url('images/bg-alt.jpeg');
+	background-size: cover;
 }
 
 .formulario{
-	width: 360px;
-	background: #f1f1f1;
-	height: 400px;
+	width:360px;
+	background: #f1f1f1c9;
 	padding: 80px 40px;
-	border-radius: 10px;
+	border-radius: 20px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -26,7 +26,7 @@ body{
 .formulario h1{
 	text-align: center;
 	margin-bottom: 60px;
-	color: #333;
+	color: rgb(22, 22, 22);
 	font-weight: 600;
 }
 
@@ -38,7 +38,7 @@ body{
 
 .box-input input{
 	font-size: 16px;
-	color: #333;
+	color: rgb(32, 32, 32);
 	border: none;
 	width: 100%;
 	outline: none;
@@ -52,7 +52,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 5px;
-	color: #adadad;
+	color: #555555;
 	transform: translateY(-50%);
 	z-index: -1;
 	transition: .5s;
@@ -86,6 +86,7 @@ body{
 	font-weight: 600;
 	font-size: 18px;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	transition: 1s;
 }
 
 .boton:hover{
